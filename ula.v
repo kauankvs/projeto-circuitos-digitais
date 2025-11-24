@@ -74,7 +74,6 @@ module ula (
         Y_reg <= mux_out;
     end
 
-    // Buffer Tri-State Externo
     assign Y_out = 1'b1 ? Y_reg : 8'bz;
 
 endmodule
